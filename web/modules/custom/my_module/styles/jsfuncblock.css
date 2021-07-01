@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Suranna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+.jsFuncContainer {
+  box-shadow     : rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  position       : relative;
+  align-items    : center;
+  justify-content: center;
+}
+
+.jsFuncSubContainer {
+  max-width      : 60rem;
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: center;
+  font-family    : inherit;
+  margin         : 0 auto;
+}
+
+.jsFuncTitle {
+  font-size  : 3rem;
+  margin     : .7rem;
+  font-family: inherit !important;
+  text-align : center;
+}
+
+.jsFuncForm {
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: center;
+  padding        : 0 1rem;
+  width          : 100%;
+  max-width      : 45rem;
+}
+
+.jsFuncInput {
+  height         : 2rem;
+  width          : 100%;
+  max-width      : 45rem;
+  text-align     : center;
+  padding        : 1.2rem 0;
+  margin         : 0 1rem 1rem 1rem;
+  border         : 0;
+  text-decoration: none;
+  border-radius  : 2px;
+  letter-spacing : .08rem;
+  cursor         : pointer;
+  outline        : none;
+  box-shadow     : rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+
+.jsFuncButton {
+  font-family     : inherit;
+  font-size       : 2rem;
+  width           : 100%;
+  height          : 4rem;
+  margin-bottom   : 1rem;
+  text-align      : center;
+  border          : 0;
+  text-decoration : none;
+  border-radius   : 2px;
+  background-color: inherit;
+  letter-spacing  : .08em;
+  cursor          : pointer;
+  text-transform  : uppercase;
+  transition      : all 1s ease;
+  box-shadow      : rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+
+}
+
+.jsFuncButton:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+
+}
+
+.jsFuncButton:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all 0.1s ease;
+}
+
+.jsFuncOutput {
+  font-family: inherit !important;
+  text-align : center;
+}
+
+.romanesqueFont {
+  /* Can also make this a utility class - 
+  essentialy a font family override that can be applied to any element. */
+  font-family: Suranna, times;
+}
+
+.cleanFont {
+  font-family: ubuntu, arial;
+
+}

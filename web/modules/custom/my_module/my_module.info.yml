@@ -1,0 +1,7 @@
+name: My first module
+type: module
+description: 'Provides sandbox module to play with'
+package: Custom
+core_version_requirement: ^8.8 || ^9
+dependencies: {}
+version: 8.x-1.0-alpha

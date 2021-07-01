@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * Implements hook_theme for blocks.
+ *
+ *{@inheritDoc}
+ */
+function my_module_theme($existing, $type, $theme, $path) {
+  return [
+    'palindrome_block' => [
+      'template' => 'palindrome_checker',
+      'variables' => [
+        'color' => NULL,
+      ],
+    ], 
+    'roman_numeral_generator_block' => [
+      'template' => 'roman_numeral_generator',
+      'variables' => [
+        'color' => NULL,
+      ],
+    ],
+    'caesers_cipher_block' => [
+      'template' => 'caesers_cipher', //this is what points to the .html.twig file
+      'variables' => [
+        'color' => NULL,
+      ],
+    ]
+  ];
+}

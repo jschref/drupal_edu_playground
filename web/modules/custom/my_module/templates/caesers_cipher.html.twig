@@ -1,0 +1,13 @@
+<div id="caesersContainer" class="jsFuncContainer romanesqueFont">
+	<div class="jsFuncSubContainer">
+
+		<h1 id="caesersTitle" class="jsFuncTitle">Caesar's Cipher</h1>
+		<form class="jsFuncForm">
+			<input class="caesersInput jsFuncInput" id="ceasersString" type="text" placeholder="Enter a word or phrase to encrypt or decrypt"/>
+			<input class="caesersInput jsFuncInput" id="caesersShift" type="text" placeholder="Enter your key, an integer between 0 and 26"/>
+			<button class="caesersButton jsFuncButton" id="caesersEncrypt" onclick='shiftCipher(ceasersString.value, caesersShift.value)'>Encyrpt</button>
+			<button class="caesersButton jsFuncButton" id="caesersDecrypt" onclick='shiftCipher(ceasersString.value, - caesersShift.value)'>Decrypt</button>
+		</form>
+		<h3 id="caesersOutput" class="jsFuncOutput">Your code here</h3>
+	</div>
+</div>

@@ -1,0 +1,19 @@
+palindrome_checker:
+  version: 1.x
+  js:
+    js/palindrome.js: {}
+
+roman_numeral_generator:
+  version: 1.x
+  js:
+    js/roman.js: {}
+
+caesers_cipher:
+  version: 1.x
+  js:
+    js/caesers.js: {}
+
+base_styles:
+    css:
+      theme:
+        styles/jsfuncblock.css: {}
