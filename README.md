@@ -1,4 +1,14 @@
-# Docksal powered Drupal 9 With Composer Installation
+# Educational project for Drupal
+
+This is a personal education project to learn Drupal. This was created as a
+playground to style, build modules, etc. 
+
+If you're reading this, and you're not me, please forgive the mess. This was
+not intended be a live site, just a playground, as it lacks any sort of 
+cohesive purpose. 
+
+
+## Docksal powered Drupal 9 With Composer Installation
 
 This is a sample Drupal 9 with Composer installation pre-configured for use with Docksal.
 
