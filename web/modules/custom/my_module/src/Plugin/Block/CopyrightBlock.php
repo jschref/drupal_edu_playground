@@ -13,18 +13,15 @@ use Drupal\Core\Block\BlockBase;
  *   category = @Translation("Utility Block"),
  * )
  */
-class CopyrightBlock extends BlockBase {
-
+class CopyrightBlock extends BlockBase
+{
   /**
    * {@inheritdoc}
    */
-  public function build() {
+  public function build()
+  {
     return [
       '#markup' => $this->t('This Site Copyright') . '© ' . date("Y"),
     ];
   }
-
 }
-
-// echo "&copy;" . date("Y")
-

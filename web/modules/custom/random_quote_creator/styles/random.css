@@ -1,0 +1,47 @@
+ #quote-box {
+     min-height   : 70vh;
+     max-height   : 700px;
+     padding      : 5%;
+     box-shadow   : 0 0 5rem 0 rgb(0, 0, 0, 1);
+     position     : relative;
+     background   : inherit;
+     overflow     : hidden;
+     border-radius: 4px;
+     display      : grid;
+     align-items  : center;
+
+ }
+
+ #fa-quotation-mark {}
+
+ #quote-text {
+     font-size: 1.5rem;
+ }
+
+ #author {
+     text-align: right;
+     font-size : 2rem;
+ }
+
+ .button-container {
+     display: flex-start;
+     height : 42.85px;
+     width  : max-content;
+
+ }
+
+ #tweet-quote {
+     margin : 0;
+     padding: 0;
+     height : 42.85px;
+     position: relative;
+     bottom: 3px;
+     /* because font-awesome is awesome, the tweet icon is vertically offset from its container. How much exactly appears to be ~3-4 pixels. */
+ }
+
+ #new-quote {
+     margin   : 0;
+     font-size: 1.5rem;
+     padding  : 1rem;
+     height   : 42.85px;
+ }

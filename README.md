@@ -1,11 +1,15 @@
 # Educational project for Drupal
 
-This is a personal education project to learn Drupal. This was created as a
-playground to style, build modules, etc. 
+This is a personal education project to learn Drupal. This site was created as
+a playground to style, build modules, etc. 
 
-If you're reading this, and you're not me, please forgive the mess. This was
-not intended be a live site, just a playground, as it lacks any sort of 
-cohesive purpose. 
+If you're reading this, and you're not me, please forgive the mess. This is my 
+classroom, my playground. I need somewhere to teach myself Drupal, and this is it. 
+As it lacks any sort of cohesive purpose or theme, beyond learning, it just isn't
+cohesive like a live site should be. 
+
+In the unlikely event anyone will ever want to fork this, the original README 
+is maintained below. 
 
 
 ## Docksal powered Drupal 9 With Composer Installation

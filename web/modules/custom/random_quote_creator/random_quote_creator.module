@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Implements hook_theme for blocks.
+ *
+ *{@inheritDoc}
+ */
+function random_quote_creator_theme($existing, $type, $theme, $path)
+{ //unique, replaces the word "hook" must end in _theme
+  return [
+    'random_quote_creator' => [ //should be unique, linked to build function in .php block plugin 
+      'template' => 'random_quote_layout', //this is what points to the .html.twig file
+      'variables' => [
+        'color' => NULL,
+      ],
+    ],
+  ];
+}

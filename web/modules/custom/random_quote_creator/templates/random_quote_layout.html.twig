@@ -1,0 +1,31 @@
+{# bootstrap  #}
+<link
+rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+{# font awesome  #}
+<link
+rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+{# the page proper #}
+<body
+onload="newQuote()"/>
+{# onload="newQuote()" only functions if in a body tag, and won't if attached to any other container here. I'm not entirely sure why Drupal.behaviors is doing this. #}
+
+
+<div id="quote-box" class="backgrounds">
+
+	<div>
+		<i id="quotation-mark" class="fa fa-quote-left" aria-hidden="true"></i>
+		<h1 id="quote-text">
+			A little placeholder, in a strange land.
+			<h1></div>
+			<div id="author">Author Name</div>
+
+			<span id="button-container">
+				<a id="tweet-quote" class="fa fa-twitter-square fa-5x" aria-hidden="true" href="https://twitter.com/intent/tweet?url=https://codepen.io/JSchref/full/eYvOWQV&amp;text=Check out this quote generator!" 
+				{# this needs the reference link changed, the question is to what? #} target="_blank" title="Tweet this pen!"></a>
+				{# This feature requires a twitter account to function.  #}
+
+				<button id="new-quote" class="btn btn-default btn-lg text-start pull-right" onclick="newQuote()">Another!</button>
+			</span>
+		</div>

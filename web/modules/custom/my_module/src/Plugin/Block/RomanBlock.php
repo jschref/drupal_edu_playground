@@ -1,6 +1,7 @@
 <?php
 
 namespace Drupal\my_module\Plugin\Block;
+
 use Drupal\Core\Block\BlockBase;
 
 /**
@@ -12,22 +13,21 @@ use Drupal\Core\Block\BlockBase;
  *   category = @Translation("Utility Block"),
  * )
  */
-class RomanBlock extends BlockBase {
+class RomanBlock extends BlockBase
+{
 
-    // Instead of rendering this as raw markup, we want to use a template.
-    public function build() {
-        // TODO: add stuff here.
-        $build = [
-          '#theme' => 'roman_numeral_generator_block',
-          '#color' => 'white',
-          '#attached' => [
-            'library' => [
-              'my_module/roman_numeral_generator',
-              'my_module/base_styles',
-            ],
-          ],
-        ];
-        return $build;
-    }
-
+  public function build()
+  {
+    $build = [
+      '#theme' => 'roman_numeral_generator_block',
+      '#color' => 'white',
+      '#attached' => [
+        'library' => [
+          'my_module/roman_numeral_generator',
+          'my_module/base_styles',
+        ],
+      ],
+    ];
+    return $build;
+  }
 }
