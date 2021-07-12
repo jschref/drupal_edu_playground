@@ -1,0 +1,19 @@
+uuid: 48d98116-df4c-4e47-9c3f-6c2a3509d027
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_quote
+    - node.type.quote
+id: node.quote.field_quote
+field_name: field_quote
+entity_type: node
+bundle: quote
+label: Quote
+description: 'Enter your quote, without quotation marks or special characters. '
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

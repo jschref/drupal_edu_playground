@@ -1,0 +1,20 @@
+uuid: 62fae5e8-c810-409c-b986-373a849d6132
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_module
+  theme:
+    - showcase_lite
+id: copyrightblock
+theme: showcase_lite
+region: footer_fifth
+weight: 0
+provider: null
+plugin: copyright_block
+settings:
+  id: copyright_block
+  label: 'Copyright Block'
+  provider: my_module
+  label_display: '0'
+visibility: {  }

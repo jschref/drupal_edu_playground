@@ -1,0 +1,8 @@
+uuid: cb307cc7-22f4-4893-9804-f54024003f2e
+langcode: en
+status: true
+dependencies: {  }
+name: Genre
+vid: genre
+description: 'category for quotes, books, and authors'
+weight: 0

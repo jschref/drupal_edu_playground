@@ -1,0 +1,25 @@
+uuid: 8e72d85b-6c9c-472a-8fbb-550295c69b7d
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_module
+    - system
+  theme:
+    - showcase_lite
+id: palindromecheckerblock
+theme: showcase_lite
+region: content
+weight: -3
+provider: null
+plugin: palindrome_block
+settings:
+  id: palindrome_block
+  label: 'Palindrome Checker Block'
+  provider: my_module
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /javascript-blocks
+    negate: false

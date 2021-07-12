@@ -1,0 +1,25 @@
+uuid: 8d3bc422-7387-423a-93a0-4a81afe3ba9f
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_module
+    - system
+  theme:
+    - showcase_lite
+id: romannumeralgeneratorblock
+theme: showcase_lite
+region: content
+weight: -4
+provider: null
+plugin: roman_numeral_generator
+settings:
+  id: roman_numeral_generator
+  label: 'Roman Numeral Generator Block'
+  provider: my_module
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /javascript-blocks
+    negate: false

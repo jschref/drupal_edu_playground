@@ -1,0 +1,26 @@
+uuid: da980a01-5a27-47db-b3b8-33f728228923
+langcode: en
+status: true
+dependencies:
+  module:
+    - random_quote_creator
+    - system
+  theme:
+    - showcase_lite
+id: randomquoteblock
+theme: showcase_lite
+region: content
+weight: -1
+provider: null
+plugin: random_quote_block
+settings:
+  id: random_quote_block
+  label: 'Random Quote Block'
+  provider: random_quote_creator
+  label_display: visible
+  welcome_message: 'Hello world of horses'
+visibility:
+  request_path:
+    id: request_path
+    pages: /random-quotes
+    negate: false

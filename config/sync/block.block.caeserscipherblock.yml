@@ -1,0 +1,25 @@
+uuid: 1444b109-631c-49fa-8f5e-3cfed6090692
+langcode: en
+status: true
+dependencies:
+  module:
+    - my_module
+    - system
+  theme:
+    - showcase_lite
+id: caeserscipherblock
+theme: showcase_lite
+region: content
+weight: -2
+provider: null
+plugin: caesers_cipher
+settings:
+  id: caesers_cipher
+  label: 'Caeser''s Cipher Block'
+  provider: my_module
+  label_display: visible
+visibility:
+  request_path:
+    id: request_path
+    pages: /javascript-blocks
+    negate: false

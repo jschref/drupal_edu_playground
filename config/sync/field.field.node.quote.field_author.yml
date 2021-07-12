@@ -1,0 +1,19 @@
+uuid: b488a45e-4b8c-44fc-9551-7d5ca3d8f668
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_author
+    - node.type.quote
+id: node.quote.field_author
+field_name: field_author
+entity_type: node
+bundle: quote
+label: Author
+description: 'Enter the author''s name, source, or other form of attribution for the quote here. '
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

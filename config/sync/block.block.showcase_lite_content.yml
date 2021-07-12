@@ -1,0 +1,22 @@
+uuid: cafbaa99-61f6-44cf-85d4-75f6407fe1b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - showcase_lite
+_core:
+  default_config_hash: y2euUMdfoFmV4z8yJj0cTgmJneDVGzyTNd2CrrjS8N8
+id: showcase_lite_content
+theme: showcase_lite
+region: content
+weight: -5
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

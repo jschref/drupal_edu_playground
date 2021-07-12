@@ -1,0 +1,27 @@
+uuid: 5cce1bd5-9486-4e1e-b8be-56a6caa630c4
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - showcase_lite
+id: primaryadminactions_2
+theme: showcase_lite
+region: content
+weight: -9
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
