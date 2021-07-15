@@ -1,12 +1,12 @@
 # Educational project for Drupal
 
 This is a personal education project to learn Drupal. This site was created as
-a playground to style, build modules, etc. 
+a playground to build modules, style, etc. 
 
-If you're reading this, and you're not me, please forgive the mess. This is my 
-classroom, my playground. I need somewhere to teach myself Drupal, and this is it. 
-As it lacks any sort of cohesive purpose or theme, beyond learning, it just isn't
-cohesive like a live site should be. 
+If you're reading this, and you're not me, hi. This is my messy playground. I need
+somewhere to teach myself Drupal, and this is it. As it lacks any sort of function 
+or theme, beyond learning, it just isn't cohesive like a live site should be. 
+
 
 In the unlikely event anyone will ever want to fork this, the original README 
 is maintained below. 

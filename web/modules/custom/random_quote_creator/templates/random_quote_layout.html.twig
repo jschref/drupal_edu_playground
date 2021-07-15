@@ -22,10 +22,12 @@ onload="newQuote()"/>
 			<div id="author">Author Name</div>
 
 			<span id="button-container">
-				<a id="tweet-quote" class="fa fa-twitter-square fa-5x" aria-hidden="true" href="https://twitter.com/intent/tweet?url=https://codepen.io/JSchref/full/eYvOWQV&amp;text=Check out this quote generator!" 
-				{# this needs the reference link changed, the question is to what? #} target="_blank" title="Tweet this pen!"></a>
+				<a id="tweet-quote" class="fa fa-twitter-square fa-5x" aria-hidden="true" href="https://twitter.com/intent/tweet?url=https://codepen.io/JSchref/full/eYvOWQV&amp;text=Check out this quote generator!" {# this needs the reference link changed, the question is to what? #} target="_blank" title="Tweet this pen!"></a>
 				{# This feature requires a twitter account to function.  #}
 
 				<button id="new-quote" class="btn btn-default btn-lg text-start pull-right" onclick="newQuote()">Another!</button>
+				<div>
+					{{ welcome_message }}
+				</div>
 			</span>
 		</div>

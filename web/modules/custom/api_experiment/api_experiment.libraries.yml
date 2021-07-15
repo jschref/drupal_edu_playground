@@ -1,0 +1,7 @@
+random_quote_js_css:
+  version: 1.x
+  js:
+    js/random.js: {}
+  css:
+    theme:
+      styles/random.css: {}
