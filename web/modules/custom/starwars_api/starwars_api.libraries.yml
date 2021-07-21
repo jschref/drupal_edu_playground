@@ -1,0 +1,7 @@
+sw_api_library:
+  version: 1.x
+  js:
+    js/DeathStarTarget.js: {}
+  css:
+    theme:
+      styles/starwars_api.css: {}

@@ -22,7 +22,7 @@ This module creates an API for consuming and displaying Star Wars data
 - I am thinking maybe build this in stages:
   - get something that spits out a chunk of data into the console
   - get it to display that data in an ugly format (naked HTML)
-  - get some sort of error reporting working 
   - come up with a way to display different chunks of data based on inputs
   - hook that up to the UI so the ELU can pick which chunk of data they want based on an input
+  - get some sort of error reporting working 
   - style the whole thing so that it makes sense and doesn't look like a hot mess 
