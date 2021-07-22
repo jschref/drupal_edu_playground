@@ -5,11 +5,11 @@
  *
  *{@inheritDoc}
  */
-function star_wars_api_theme($existing, $type, $theme, $path)
-{ //unique, replaces the word "hook" must end in _theme
+function starwars_api_theme($existing, $type, $theme, $path)
+{ //unique, replace the word "hook" with module name. Must end in _theme.
   return [
-    'star_wars_api_block' => [ //should be unique, linked to build function in .php block plugin 
-      'template' => 'starwars_api', //this is what points to the .html.twig file
+    'star_wars_api' => [ //should be unique, matches #theme in .php block plugin 
+      'template' => 'starwars_api', //this is what points to the .html.twig file name
       'variables' => [
         'welcome_message' => NULL,
       ],
