@@ -1,10 +1,10 @@
 let searchCategory = "planets/";
 let numberOfPlanets = 0;
 
-$(document).ready(function () {
-  //something about this may be superflous in Drupal due to Drupal.behaviors?
-  getAllPlanets();
-});
+// $(document).ready(function () {
+//   //something about this may be superflous in Drupal due to Drupal.behaviors?
+//   getAllPlanets();
+// });
 
 function getAllPlanets() {
   $.ajax({
